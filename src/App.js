@@ -3,22 +3,18 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className=" bg-white flex flex-col justify-center items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-[30rem] w-80 rounded-2xl">
+        <div className=''>
+          <img src='../image-qr-code.png' alt='image' className='rounded-2xl object-contain w-64' />
+        </div>
+        <div className='flex flex-col justify-center items-center mt-6'>
+          <p className='font-bold text-xl'>Improve your front-end <br />skills by building projects</p>
+
+          <p className='text-center mt-2'>Scan the QR code to visit Frontend <br />Mentor and take your coding skills to <br /> the next level</p>
+        </div>
+      </div>
+    </>
   );
 }
 
