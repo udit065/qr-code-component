@@ -11,7 +11,7 @@ function App() {
         <div className='flex flex-col justify-center items-center mt-6'>
           <p className='font-bold text-xl'>Improve your front-end <br />skills by building projects</p>
 
-          <p className='text-center mt-2'>Scan the QR code to visit Frontend <br />Mentor and take your coding skills to <br /> the next level</p>
+          <p className='text-center mt-2 text-slate-500'>Scan the QR code to visit Frontend <br />Mentor and take your coding skills to <br /> the next level</p>
         </div>
       </div>
     </>
